@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>MusikMaker</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <style> 
+  	.btn {  		
+  		margin-bottom: 1em;
+  		width: 13em;
+  		height: 6em;  	}
+  </style>
+    </head>
+    
+    <body style="background-color:#343a40; text-align: center;">
+    
+     <div id="first_row" style="margin-top: 1em;">
+             <div>
+            <input id="duo" class="btn"  style="margin-top: 1em;"type="button" value="Duo Synthesizer">
+        </div>
+         <div> 
+           	<input id="mem" class="btn" type="button" value="Membrane Synthesizer">
+      </div>  
+            <div>
+            <input   id="am" class="btn" type="button" value="AM Synthesizer">
+        </div>
+        </div>
+        <div id="second_row">
+         <div > 
+           	<input  id="fm" class="btn" type="button" value="FM Synthesizer">
+      </div>      
+            <div>
+            <input  id="pluck" class="btn" type="button" value="Pluck Synthesizer">
+        </div>
+         <div> 
+           	<input id="mono" class="btn" type="button" value="Mono Synthesizer">
+      </div>
+  </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/13.0.1/Tone.min.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+   
+</html>
